@@ -59,7 +59,7 @@ function draw() {
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 //WRITE A CORRECT CODE TO APPLY A KEYPRESSED TO CHANGE THE POSITION OF BALL OBJECT TO THE LEFT WHEN UP ARROW KEY IS PRESSED
-		Matter.Bodies.applyForce(bob1.body, bob1.body.position, {x: 0.25, y:0})
+		Matter.Body.applyForce(bob1.body, bob1.body.position, {x: 0.25, y:0})
 		
 	}
 }
